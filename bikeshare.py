@@ -24,6 +24,7 @@ def day_of_week():
 print(day_of_week)
 def printInfo():
     print("nouf")
+    print("Management informaion system")
 
     # get user input for month (all, january, february, ... , june)
     month = input('ENTER MONTH: ').lower()
