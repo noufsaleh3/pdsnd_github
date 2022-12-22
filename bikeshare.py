@@ -20,8 +20,10 @@ def get_filters():
     city = input('ENTER THE CITY: ')
     while city not in ['chicago', 'new york city', 'washington']:
         city = input ("CHOOSE BETWEEN chicago, new york city OR washington: ").lower()
-day_of_week():
+def day_of_week():
 print(day_of_week)
+def printInfo():
+    print("nouf")
 
     # get user input for month (all, january, february, ... , june)
     month = input('ENTER MONTH: ').lower()
